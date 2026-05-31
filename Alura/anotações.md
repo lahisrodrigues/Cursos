@@ -33,7 +33,7 @@ Linguagem = como expressar essa solução de forma que o computador entenda
 
 Debbugging = identificação e correção de bugs
 
-Git = sistema de controle de versão e registra alterações no código
+Git = sistema de controle de versão e registra alterações no código  
 GitHub = plataforma online para armazenar repositórios git
 
 ## O que são LLMS?
@@ -41,7 +41,7 @@ São modelos de linguagem capazes de gerar explicações, exemplos, resumos e c�
 
 Large Language Model 
 Treinados com grandes volumes de texto e código  
-Geram respostas prováveis a partir do contexto
+Geram respostas prováveis a partir do contexto  
 Podem ajudar, mas também podem errar  
 Fundamentos tornam a IA mais útil: Quem entende os fundamentos consegue perguntar melhor, revisar melhor e depender menos de respostas prontas.
 
