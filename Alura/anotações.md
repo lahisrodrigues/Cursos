@@ -80,11 +80,11 @@ Corrirgir com participação ativa
 
 ### Cuidados com repostas de IA
 
-Pode gerar código que não funciona
-Pode inventar funções ou recursos
-Pode ignorar casos importantes
-Pode sugerir soluções inseguras
-Pode explicar algo de forma convincente, mas incorreta
+Pode gerar código que não funciona  
+Pode inventar funções ou recursos  
+Pode ignorar casos importantes  
+Pode sugerir soluções inseguras  
+Pode explicar algo de forma convincente, mas incorreta  
 
 ### Como estudar com a IA de forma saudável
 
