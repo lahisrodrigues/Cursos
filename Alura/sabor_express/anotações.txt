@@ -1,0 +1,6 @@
+print = exibe na tela
+input = recebe um dado do usuário
+\n = pula uma linha
+
+Tipos de padrões de linguagem = https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case
+
