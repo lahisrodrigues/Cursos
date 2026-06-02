@@ -1,6 +1,20 @@
-print = exibe na tela
-input = recebe um dado do usuário
-\n = pula uma linha
+print = exibe na tela  
+input = recebe um dado do usuário  
+\n = pula uma linha  
 
-Tipos de padrões de linguagem = https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case
+Tipos de padrões de linguagem = https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case  
+
+f string = coloca o texto junto com uma variável, por exemplo (f'Você escolheu a opção {opcao_escolhida}')  
+
+int = tipo da variável é inteiro  
+
+ctrl / = comenta a linha  
+
+def = é uma função em python, que nad amais é que realizar determinada ação no momento que for chamada
+
+biblioteca 'os' = para limpar o terminal     os.system('cls')  
+
+main = programa principal, controla o projeto  
+
+ctrl [ = identa um ou mais linhas
 
