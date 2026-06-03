@@ -16,5 +16,7 @@ biblioteca 'os' = para limpar o terminal     os.system('cls')
 
 main = programa principal, controla o projeto  
 
-ctrl [ = identa um ou mais linhas
+ctrl [ = identa um ou mais linhas  
+
+match = simpplificar a lógica do código ao facilitar o trabalho com diferentes padrões de dados. O match é utilizado junto com o 'case'  
 

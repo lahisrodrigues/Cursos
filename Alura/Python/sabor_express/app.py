@@ -19,7 +19,7 @@ def exibir_opcoes():
 
 def finalizar_app():
     os.system('cls')
-    print('Finalizando o app...')
+    print('Finalizando o app...\n')
 
 def escolher_opcao():
     opcao_escolhida = int(input('Escolha uma opção: '))
