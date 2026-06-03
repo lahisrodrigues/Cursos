@@ -20,3 +20,7 @@ ctrl [ = identa um ou mais linhas
 
 match = simpplificar a lógica do código ao facilitar o trabalho com diferentes padrões de dados. O match é utilizado junto com o 'case'  
 
+try e except = permite tentar excutar um bloco de código, e caso ocorra um erro, captura essa exceção e executa um código alternativo  
+https://hub.asimov.academy/blog/try-except-python/
+
+
