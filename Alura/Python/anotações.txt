@@ -21,6 +21,20 @@ ctrl [ = identa um ou mais linhas
 match = simpplificar a lógica do código ao facilitar o trabalho com diferentes padrões de dados. O match é utilizado junto com o 'case'  
 
 try e except = permite tentar excutar um bloco de código, e caso ocorra um erro, captura essa exceção e executa um código alternativo  
-https://hub.asimov.academy/blog/try-except-python/
+https://hub.asimov.academy/blog/try-except-python/  
 
+lista = armazena uma coleção de dados, utiliza os []. as listas são mutáveis, pode adicionar, remover dados, e tem funções próprias como o append(), remove(), pop(), e insert().  
 
+tuplas = são estruturas de dados que nos permitem armazenar elementos de maneira ordenada e sequencial, assim como as listas, mantendo a ordem dos elementos e também dos índices para acessar os valores, utiliza os (). as tuplas são imutáveis. tuplas tem desempenho melhor.  
+
+lista = [1,’olá mundo’,True,9.7]  
+tupla = (1,’olá mundo’,True,9.7)  
+
+laço for = estrutura de repetição para executar um bloco de código repetidas vezes  
+
+while = é utilizado quando não se sabe o número de iterações que vai precisar fazer, mas ainda precisa de uma condição específica pra fazer o bloco de código ficar ainda em repetição.  
+
+while condição:
+    # Bloco de código a ser repetido  
+
+dicionário = 
