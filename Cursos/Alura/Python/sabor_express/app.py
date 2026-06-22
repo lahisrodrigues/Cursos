@@ -15,24 +15,29 @@ def exibir_nome_do_programa():
 """)
 
 def exibir_opcoes():
+    '''Essa função exibe as funções do Menu'''
     print ('1. Cadastrar restaurante')
     print ('2. Listar restaurantes')
     print ('3. Alternar estado do restaurante')
     print ('4. Sair\n')
 
 def finalizar_app():
+    '''Essa função finaliza o app'''
     exibir_subtitulo('Finalizar app...')
     
 
 def voltar_ao_menu_principal():
+    '''Essa função volta ao menu principal'''
     input('\nDigite uma tecla para voltar para o menu\n')
     main()
 
 def opcao_invalida():
+    '''Essa função diz que a opção é inválida e retorna ao menu principal'''
     print('Opção inválida!\n')
     voltar_ao_menu_principal()
 
 def exibir_subtitulo(texto):
+  '''Essa função exibe o subtítulo'''
     os.system('cls')
     linha = '*' * (len(texto))
     print(linha)
@@ -41,6 +46,7 @@ def exibir_subtitulo(texto):
     print()
 
 def cadastrar_novo_restaurante():
+    '''Essa função é responsável por cadastrar um novo restaurante'''
     exibir_subtitulo('Cadastro de novos restaurantes')
     nome_do_restaurante = input('Digite o nome do restaurante que deseja cadastrar: ')
     categoria = input(f'Digite o nome da categoria do restaurante {nome_do_restaurante}: ')
@@ -51,6 +57,7 @@ def cadastrar_novo_restaurante():
     voltar_ao_menu_principal()
 
 def listar_restaurantes():
+  '''Essa função lista os restaurantes já cadastrados e se está ativo ou não'''
     exibir_subtitulo('Listando restaurantes')
   
     print(f'{'Nome do restaurante'.ljust(22)} | {'Categoria'.ljust(20)} | 'Status')
@@ -63,6 +70,7 @@ def listar_restaurantes():
     voltar_ao_menu_principal()
 
 def alternar_estado_restaurante():
+    '''Essa função altera o estado do restainte de ativo ou inativo'''
     exibir_subtitulo('Alternando estado do restaurante')
     nome_restaurante = input('Digite o nome do restaurante que deseja alterar o estado: ')
     restaurante_encontrado = False
@@ -81,6 +89,7 @@ def alternar_estado_restaurante():
 
 
 def escolher_opcao():
+  '''Essa função escolhe a opção deseja no menu'''
     try:
         opcao_escolhida = int(input('Escolha uma opção: '))
         if opcao_escolhida == 1:
