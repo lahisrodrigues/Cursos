@@ -41,3 +41,7 @@ dicionário = é uma estrutura de dados flexível que armazena informações em 
 
 ternário = atalho para escrever condições de if e else em uma única linha.  
 
+ljust = alinha a string a esquerda, preenche o espaço com restante de espaços ou caracteres
+
+rjust = alinha a string a direita, preenche o espaço com restante de espaços ou caracteres
+
