@@ -50,4 +50,6 @@ del pessoa['cidade] = remove um item do dicionário
 .split() = essa função transforma palavras soltas em lista, por exemplo
     meu_texto = "uva banana maça"
     minha_lista = meu_texto.split()
-    print(minha_lista)
+    print(minha_lista)  
+
+docstring = usada para fazer uma documentação em python, explicando o que o código faz
