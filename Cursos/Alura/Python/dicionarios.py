@@ -18,3 +18,13 @@ if 'nome' in pessoa:
     print('Existe essa chave')
 else:
     print('Não existe essa chave')
+
+# exercício 5 
+frase = "o rato roeu a roupa do rei e o rato fugiu"
+contagem = {}
+for palavra in frase.split():
+    if palavra in contagem:
+        contagem[palavra] += 1
+    else:
+        contagem[palavra] = 1
+print(contagem)
