@@ -28,3 +28,8 @@ for palavra in frase.split():
     else:
         contagem[palavra] = 1
 print(contagem)
+
+## .split()
+meu_texto = "uva banana maça"
+minha_lista = meu_texto.split() # se usa assim
+print(minha_lista)
