@@ -12,12 +12,12 @@ for elemento in iterável: # Dois pontos e o in são obrigatórios
 ```
 ##@ Exemplo  
 
-´´´   
+```
 nomes = ["Carlos", "Ana", "Pedro", "Maria"]
 
 for nome in nomes:
      print(nome)  
-´´´  
+```
 
 
 Primeiro, cria uma lista com os nomes, em seguida criamos um laço for para percorrer todos os nomes da lista e exibir na tela.
