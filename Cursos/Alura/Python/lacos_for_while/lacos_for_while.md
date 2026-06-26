@@ -10,7 +10,7 @@ for elemento in iterável: # Dois pontos e o in são obrigatórios
 # elemento = cada item indivusal do iterável que é processado dentro do laço
 # iterável: é um acoleção de valores, como listas, tuplas, dicionários, entre outros.
 ```
-##@ Exemplo
+##@ Exemplo  
 
 ´´´   
 nomes = ["Carlos", "Ana", "Pedro", "Maria"]
@@ -18,6 +18,7 @@ nomes = ["Carlos", "Ana", "Pedro", "Maria"]
 for nome in nomes:
      print(nome) 
 ´´´  
+
 
 Primeiro, cria uma lista com os nomes, em seguida criamos um laço for para percorrer todos os nomes da lista e exibir na tela.
 O termo "nome" é somente um identificador de cada elemento da lista que vamos percorrer com o laço for. Pode colocar qualquer outro nome de váriavel que faça sentido no contexto
