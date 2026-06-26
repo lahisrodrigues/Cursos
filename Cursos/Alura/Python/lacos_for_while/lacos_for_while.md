@@ -51,3 +51,33 @@ contador = 0
 while contador < 5:
      print("Contador:", contador)
 ```
+### Break
+
+Permite que saia imediatamente de um laço, mesmo que a condição para continuar seja verdadeira
+```
+nomes = ["PM3", "Alura", "Latam", "Outros"]
+for nome in nomes:
+     if nome == "Alura":
+          print("Nome encontrado! Saindo do laço.")
+          break
+     print(nome)
+```
+Neste exemplo, assim que o laço percorrer os nomes e encontrar "Alura", irá imprimir que o nome foi encontrado e sairá do laço, e não vai imprimir os proximos nomes.
+
+### Continue
+Perimite que você pula a próxima iteração do laço, ignorando o restante do código na iteração atual.
+```
+nomes = ["PM3", "Alura", "Latam", "Outros"]
+for nome in nomes:
+     if nome == "Alura":
+          print("Ignorando Alura.")
+          continue
+     print(f"Nome: {nome}")
+```
+Neste exemplo, quando o laço encontra "Alura" ele imprime "Ignorando Alura" e salta a impressão de Alura, continuando com os outros nomes da lista.
+
+### Funções úteis em laços
+
+```len()``` utilizada para ter o nome da listra, string ou outro tipo de coleção. Ela permite saber quantas iterações vão ter no laço
+```range()``` gera uma sequência de números, que é frequentemente utilizada para saber a quantidade de iterações no laço ```for```. Com ela tambem podemos definir um espaço de números para iterar, podendo definir um passo. Por exemplo, um ```range(6)```, gera números de 0 a 5, permitindo que o laço execute 5 vezes.
+
