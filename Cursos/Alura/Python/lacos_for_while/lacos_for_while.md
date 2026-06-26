@@ -10,7 +10,7 @@ for elemento in iterável: # Dois pontos e o in são obrigatórios
 # elemento = cada item indivusal do iterável que é processado dentro do laço
 # iterável: é um acoleção de valores, como listas, tuplas, dicionários, entre outros.
 ```
-### Exemplo  
+### Exemplo de laço FOR
 
 ```
 nomes = ["Carlos", "Ana", "Pedro", "Maria"]
@@ -27,3 +27,27 @@ Executa o bloco de código enquanto a condição especificada for verdadeira. É
 while condicao:
 ```
 A condição é qualquer expressão que resulta em um valor booleano (True or False)
+### Operadores de comparação
+Igualdade (==), diferente (!=), maior que (>), maior ou igual (>=), menor que (<), menor ou igual (<=)
+
+### Exemplo de laço WHILE
+```
+contador = 0
+
+while contador < 5:
+     print(f"Contador atual: {contador}")
+contador +=1
+```
+Primeiro, cria uma variável com o contador igual a 0. O contador serve para garantir eventualmente que a condição se torne falsa.
+O laço while verifica a condição contador < 5. Enquanto a condição for verdadeira o código dentro do laço continua sendo executado.
+Dentro do laço imprimimos o contador atual, e depois incrementamos o contador com += 1, esse processo repete até que se torne falsa, ou seja, chegue até no < 5
+
+### Loop Infinito
+
+É quandoi um laço de repetição executa sem parar, porque a condição dele nunca se torna falsa.
+```
+contador = 0
+
+while contador < 5:
+     print("Contador:", contador)
+```
