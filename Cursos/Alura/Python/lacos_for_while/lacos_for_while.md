@@ -3,14 +3,14 @@ Laços de repetição são estruturas que permitem executar um código repetidam
 A leitura de um laço de repetição pode ser lida como: repita até que a condição se torne falsa.
 
 ## Sintaxe do laço for
-Utilizado para executar um bloco de código para cada elemento do iterável. Útil quando você sabe exatamente quantas iterações deseja reralizar
+Utilizado para executar um bloco de código para cada elemento do iterável. Útil quando você sabe exatamente quantas iterações deseja reralizar.
 ```
 for elemento in iterável: # Dois pontos e o in são obrigatórios
 
 # elemento = cada item indivusal do iterável que é processado dentro do laço
 # iterável: é um acoleção de valores, como listas, tuplas, dicionários, entre outros.
 ```
-##@ Exemplo  
+### Exemplo  
 
 ```
 nomes = ["Carlos", "Ana", "Pedro", "Maria"]
@@ -18,8 +18,12 @@ nomes = ["Carlos", "Ana", "Pedro", "Maria"]
 for nome in nomes:
      print(nome)  
 ```
-
-
 Primeiro, cria uma lista com os nomes, em seguida criamos um laço for para percorrer todos os nomes da lista e exibir na tela.
-O termo "nome" é somente um identificador de cada elemento da lista que vamos percorrer com o laço for. Pode colocar qualquer outro nome de váriavel que faça sentido no contexto
+O termo "nome" é somente um identificador de cada elemento da lista que vamos percorrer com o laço for. Pode colocar qualquer outro nome de váriavel que faça sentido no contexto.
 
+## Sintaxe do laço While
+Executa o bloco de código enquanto a condição especificada for verdadeira. É útil quando não se sabe exatamente a quantidade de iterações serão necessárias, já que a condição depende do resultado da condição de cada iteração.
+```
+while condicao:
+```
+A condição é qualquer expressão que resulta em um valor booleano (True or False)
