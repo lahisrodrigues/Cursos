@@ -5,7 +5,7 @@ restaurantes = [{'nome' : 'Praça', 'categoria': 'Japonesa', 'ativo': False},
                 {'nome' : 'Cantina', 'categoria': 'Italiana', 'ativo': False}]
 
 def exibir_nome_do_programa():
-    '''Exibe o nome estilizado do programa na tela''''
+    '''Exibe o nome estilizado do programa na tela'''
     print("""
 ░██████╗░█████╗░██████╗░░█████╗░██████╗░  ███████╗██╗░░██╗██████╗░██████╗░███████╗░██████╗░██████╗
 ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗  ██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝
@@ -81,7 +81,7 @@ def listar_restaurantes():
     '''
     exibir_subtitulo('Listando restaurantes')
   
-    print(f'{'Nome do restaurante'.ljust(22)} | {'Categoria'.ljust(20)} | 'Status')
+    print(f'{'Nome do restaurante'.ljust(22)} | {'Categoria'.ljust(20)} | Status')
     for restaurante in restaurantes:
         nome_restaurante = restaurante['nome']
         categoria = restaurante['categoria']
@@ -133,7 +133,7 @@ def escolher_opcao():
         opcao_invalida()
 
 def main():
-  '''Função principal que inicia o programa'''
+    '''Função principal que inicia o programa'''
     os.system('cls')
     exibir_nome_do_programa()
     exibir_opcoes()
@@ -141,5 +141,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-    # parei 6
