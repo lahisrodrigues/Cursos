@@ -16,7 +16,7 @@ for elemento in iterável: # Dois pontos e o in são obrigatórios
 nomes = ["Carlos", "Ana", "Pedro", "Maria"]
 
 for nome in nomes:
-     print(nome) 
+     print(nome)  
 ´´´  
 
 
