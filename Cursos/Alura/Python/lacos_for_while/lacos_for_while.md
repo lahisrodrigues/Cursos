@@ -79,5 +79,5 @@ Neste exemplo, quando o laço encontra "Alura" ele imprime "Ignorando Alura" e s
 ### Funções úteis em laços
 
 ```len()``` utilizada para ter o nome da listra, string ou outro tipo de coleção. Ela permite saber quantas iterações vão ter no laço
-```range()``` gera uma sequência de números, que é frequentemente utilizada para saber a quantidade de iterações no laço ```for```. Com ela tambem podemos definir um espaço de números para iterar, podendo definir um passo. Por exemplo, um ```range(6)```, gera números de 0 a 5, permitindo que o laço execute 5 vezes.
+```range()``` gera uma sequência de números, que é frequentemente utilizada para saber a quantidade de iterações no laço ```for```. Com ela tambem podemos definir um espaço de números para iterar, podendo definir um passo. Por exemplo, um ```range(6)```, gera números de 0 a 5, permitindo que o laço execute cinco vezes.
 
