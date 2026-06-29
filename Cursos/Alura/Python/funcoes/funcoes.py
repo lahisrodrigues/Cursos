@@ -53,21 +53,33 @@
 
 # # Exercício 4
 
-telefones = ["11987654321", "21912345678", "31987654321", "11911223344"]
-def conversao_int(telefones):
-    resultado = []
-    for telefone in telefones:
-        telefone = int(telefone)
-        resultado.append(telefone)
-    return resultado
+# telefones = ["11987654321", "21912345678", "31987654321", "11911223344"]
+# def conversao_int(telefones):
+#     resultado = []
+#     for telefone in telefones:
+#         telefone = int(telefone)
+#         resultado.append(telefone)
+#     return resultado
 
-def conversao_correta(lista_convertida):
-    resultado = True # flag
-    for telefone in lista_convertida:
-        if not isinstance(telefone, int):
-            resultado = False
-    if resultado:
-        print("Todos os números foram convertidos corretamente!")
+# def conversao_correta(lista_convertida):
+#     resultado = True # flag
+#     for telefone in lista_convertida:
+#         if not isinstance(telefone, int):
+#             resultado = False
+#     if resultado:
+#         print("Todos os números foram convertidos corretamente!")
 
-lista_convertida = conversao_int(telefones)
-conversao_correta(lista_convertida)
+# lista_convertida = conversao_int(telefones)
+# conversao_correta(lista_convertida)
+
+# # Exercício 5
+
+# valores = input('Digite os valores das vendas: ').split()
+# total = sum(map(float, valores))
+# print(f'O total de vendas for: {total}')
+
+# Exercício 6
+
+numeros = input('Digite os números separados por espaço: ').split()
+numeros_pares = (filter(lambda: numeros % 2 == 0, [numeros]))
+print(f'Numeros pares: {numeros_pares}')
