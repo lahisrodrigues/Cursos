@@ -61,7 +61,7 @@ São funções já incorporadas no Python, que podem ser utilizadas diretamente 
 ```tipe(10)```, saída será <class 'int'>
 
 ```isinstance()``` = verifica se op objeto pertence a um tipo específico ou a uma tupla de tipos. Retorna ```True``` se for do tipo indicado, caso contrário ```False```. 
-```isinstance(`10.5, int)```, saída será ```False```
+```isinstance(10.5, int)```, saída será ```False```
 ```isinstance("Python", (int, str))```, saída será ```True```
 
 ```len``` = retorna o tamanho de uma string, lista ou tupla

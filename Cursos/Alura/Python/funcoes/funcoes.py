@@ -40,13 +40,34 @@
 
 # # Exercício 3
 
-def saudacao_personalizada(hora):
-    if hora < 12:
-        return "Bom dia"
-    elif hora < 18:
-        return "Boa tarde"
-    else:
-        return "Boa noite"
+# def saudacao_personalizada(hora):
+#     if hora < 12:
+#         return "Bom dia"
+#     elif hora < 18:
+#         return "Boa tarde"
+#     else:
+#         return "Boa noite"
 
-hora_atual = int(input("Digite a hora atual: "))
-print(saudacao_personalizada(hora_atual))
+# hora_atual = int(input("Digite a hora atual: "))
+# print(saudacao_personalizada(hora_atual))
+
+# # Exercício 4
+
+telefones = ["11987654321", "21912345678", "31987654321", "11911223344"]
+def conversao_int(telefones):
+    resultado = []
+    for telefone in telefones:
+        telefone = int(telefone)
+        resultado.append(telefone)
+    return resultado
+
+def conversao_correta(lista_convertida):
+    resultado = True # flag
+    for telefone in lista_convertida:
+        if not isinstance(telefone, int):
+            resultado = False
+    if resultado:
+        print("Todos os números foram convertidos corretamente!")
+
+lista_convertida = conversao_int(telefones)
+conversao_correta(lista_convertida)
