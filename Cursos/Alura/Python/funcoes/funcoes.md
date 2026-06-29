@@ -53,75 +53,75 @@ Se nenhum parâmetro for passado, o padrão será "Visitante", caso contrário, 
 São funções já incorporadas no Python, que podem ser utilizadas diretamente sem precisar importá-las ou defini-las.
 
 ### Referente a interação, temos:
-```print()```
+```print()```  
 ```input()```
 
 ### Para manipulação, temos:
-```type()``` = retorna tipo do objeto. 
+```type()``` = retorna tipo do objeto.  
 ```tipe(10)```, saída será <class 'int'>
 
-```isinstance()``` = verifica se op objeto pertence a um tipo específico ou a uma tupla de tipos. Retorna ```True``` se for do tipo indicado, caso contrário ```False```. 
+```isinstance()``` = verifica se op objeto pertence a um tipo específico ou a uma tupla de tipos. Retorna ```True``` se for do tipo indicado, caso contrário ```False```.  
 ```isinstance(10.5, int)```, saída será ```False```  
-```isinstance("Python", (int, str))```, saída será ```True```
+```isinstance("Python", (int, str))```, saída será ```True```  
 
 ```len``` = retorna o tamanho de uma string, lista ou tupla  
 ```len("Python")```, saída será 6
 
 ### Conversão e criação de tipos, temos:
 
-````str()``` = converte valor para string
+```str()``` = converte valor para string  
 ```str(123)```, saída será "123"
 
-````int()``` = converte valor para inteiro
+````int()``` = converte valor para inteiro  
 ```int("10")```, saída será 10
 
-````float()``` = converte valor para decimal
+```float()``` = converte valor para decimal  
 ```float("3.14")```, saída será 3.14
 
-````bool()``` = converte falor para ```True``` ou ```False```
+```bool()``` = converte falor para ```True``` ou ```False```  
 ```bool(1)```, saída será ```True```
 
-````list()``` = converte um iterável para lista
-````list("abc)```, saída será ``["a", "b", "c"]``
+```list()``` = converte um iterável para lista  
+```list("abc)```, saída será ``["a", "b", "c"]``  
 
-````dict()``` = cria um dicionário
+```dict()``` = cria um dicionário  
 ``dict(nome="Ana")``, saída sería {"nome": "Ana"}
 
-````set()``` = cria um conjunto
-````set([1, 2, 3])```, saída será {1, 2, 3}
+```set()``` = cria um conjunto  
+```set([1, 2, 3])```, saída será {1, 2, 3}  
 
 ### Funções matemáticas, temos:
- ````abs()``` = retorna valor absoluto de um número
+```abs()``` = retorna valor absoluto de um número  
 ```abs(-10)```, saída será "10"
 
-```round()``` = arredonda um número
+```round()``` = arredonda um número  
 ```round(3.1415, 2)```, saída será 3.14
 
-````max()``` = retorna valor maior entre os fornecidos
+```max()``` = retorna valor maior entre os fornecidos  
 ```max(3, 5, 1)```, saída será 5
 
-````min()``` = retorna valor menor entre os fornecidos
+```min()``` = retorna valor menor entre os fornecidos  
 ```min(3, 5, 1)```, saída será 1
 
-````sum()``` = retorna a soma de uma lista de números
-````sum([1, 2, 3])```, saída será 6
+```sum()``` = retorna a soma de uma lista de números  
+```sum([1, 2, 3])```, saída será 6
 
 ### Funções que trabalham com funções iteráveis:
 
-````filter(operação, iterável)``` = filtra elementos de um iterável com base em uma condição
+```filter(operação, iterável)``` = filtra elementos de um iterável com base em uma condição  
 ```list(filter(lambda x : x > 2, [1, 2, 3, 4]))```, saída será [3, 4]
 
-```map(função, iterável)``` = aplica a função em cada elemento de um iterável
+```map(função, iterável)``` = aplica a função em cada elemento de um iterável  
 ```list(map(lambda x : x*2, [1, 2, 3]))```, saída será [2, 4, 6]
 
-````zip(iterável, iterável2, ...)``` = une dois ou mais iteráveis, criando pares de elemntos correspondentes
+```zip(iterável, iterável2, ...)``` = une dois ou mais iteráveis, criando pares de elemntos correspondentes  
 ```list(zip([1, 2, 3], [a, b, c]))```, saída será [(1, "a"), (2, "b"), (3, "c")] 
 
-````sorted(iterável, key=função, reverse=bool)``` = retorna uma nova lista ordenada a partir de um iterável. Pode receber um argumento key para personalizar a ordenação
+```sorted(iterável, key=função, reverse=bool)``` = retorna uma nova lista ordenada a partir de um iterável. Pode receber um argumento key para personalizar a ordenação  
 ```sorted(3, 1, 4, 2)```, saída será [1, 2, 3, 4]
 
-````reversed(iterável)``` = retorna um iterador com os elementos de um iterável na ordem inversa
-````list(reversed(1, 2, 3))```, saída será [3, 2, 1]
+```reversed(iterável)``` = retorna um iterador com os elementos de um iterável na ordem inversa  
+```list(reversed(1, 2, 3))```, saída será [3, 2, 1]  
 
 ### Documentação oficial de funções build in
 https://docs.python.org/3/library/functions.html
