@@ -72,7 +72,7 @@ São funções já incorporadas no Python, que podem ser utilizadas diretamente 
 ```str()``` = converte valor para string  
 ```str(123)```, saída será "123"
 
-````int()``` = converte valor para inteiro  
+```int()``` = converte valor para inteiro  
 ```int("10")```, saída será 10
 
 ```float()``` = converte valor para decimal  
