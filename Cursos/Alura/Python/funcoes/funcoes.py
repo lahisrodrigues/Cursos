@@ -80,6 +80,6 @@
 
 # Exercício 6
 
-numeros = input('Digite os números separados por espaço: ').split()
-numeros_pares = (filter(lambda: numeros % 2 == 0, [numeros]))
-print(f'Numeros pares: {numeros_pares}')
+# numeros = input('Digite os números separados por espaço: ').split()
+# numeros_pares = (filter(lambda x: int(x) % 2 == 0, numeros))
+# print(f'Numeros pares:' " ".join(numeros_pares)) # o .join() fica melhor para o usuário visualizar a string
