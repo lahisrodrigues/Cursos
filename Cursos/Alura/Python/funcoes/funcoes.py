@@ -78,8 +78,19 @@
 # total = sum(map(float, valores))
 # print(f'O total de vendas for: {total}')
 
-# Exercício 6
+# # Exercício 6
 
 # numeros = input('Digite os números separados por espaço: ').split()
 # numeros_pares = (filter(lambda x: int(x) % 2 == 0, numeros))
 # print(f'Numeros pares:' " ".join(numeros_pares)) # o .join() fica melhor para o usuário visualizar a string
+
+# # Exercócio 7
+
+# produtos = input('Digite os produtos separados por vírgula: ').split(",")
+# precos = input('Digite os preços separados por vírgula: ').split(",")
+
+# def produtos_precos(prod, pre):
+#      for produto, preco in zip(prod, pre):
+#           print(f'{produto.strip()}: {preco.strip()}')
+
+# produtos_precos(produtos, precos)
