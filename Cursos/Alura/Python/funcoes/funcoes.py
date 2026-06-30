@@ -29,6 +29,28 @@
 # idade = calcular_idade(nascimento, atual)
 # print(f"A idade é {idade} anos.")
 
+primeiro_numero = float(input('Digite o primeiro número: '))
+segundo_numero = float(input('Digite o segundo número: '))
+operacao = input('Escolha a operação (| + | - | * | / |): ')
+
+def calculadora(p, s, op):
+     if op == "+":
+          soma = (lambda x, y: x + y, p, s)
+          print(f'O resultado é {soma}')
+     elif op == '-':
+          subtracao = (filter(lambda x: x - x, p, s))
+          print(f'O resultado é {subtracao}')
+     elif op == '*':
+          vezes = (filter(lambda x: x * x, p, s))
+          print(f'O resultado é {vezes}')
+     elif op == '/':
+          divisao = (filter(lambda x: x / x, p, s))
+          print(f'O resultado é {divisao}')
+     else:
+          print('Operação errada, encerrando programa...')
+               
+calculadora(primeiro_numero, segundo_numero, operacao)
+
 
 # # Exercicio 2
 
