@@ -169,7 +169,7 @@ print(valor) # Saída: 15
 ```
 As closures são úteis para encapsular lógicas e criar funçoes especializadas sem usar variáveis globais
 
-Outro exemplo do uso dos Closures seria um gerador de saudção personalizado
+Outro exemplo do uso dos Closures seria um gerador de saudação personalizado
 
 ```
 def criar_saudacao(saudacao):
