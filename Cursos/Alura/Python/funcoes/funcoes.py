@@ -96,24 +96,24 @@
 
 # # Exercicio 8
 
-primeiro_numero = float(input('Digite o primeiro número: '))
-segundo_numero = float(input('Digite o segundo número: '))
-operacao = input('Escolha a operação (| + | - | * | / |): ')
+# primeiro_numero = float(input('Digite o primeiro número: '))
+# segundo_numero = float(input('Digite o segundo número: '))
+# operacao = input('Escolha a operação (| + | - | * | / |): ')
 
-def calculadora(p, s, op):
-     if op == "+":
-          soma = (lambda x, y: x + y)(p, s)
-          print(f'O resultado é {soma}')
-     elif op == '-':
-          subtracao = (lambda x, y: x - y)(p, s)
-          print(f'O resultado é {subtracao}')
-     elif op == '*':
-          vezes = (lambda x, y: x * y)(p, s)
-          print(f'O resultado é {vezes}')
-     elif op == '/':
-          divisao = (lambda x, y: x / y)(p, s)
-          print(f'O resultado é {divisao}')
-     else:
-          print('Operação errada, encerrando programa...')
+# def calculadora(p, s, op):
+#     if op == '+':
+#           soma = (lambda x, y: x + y)(p, s)
+#           print(f'O resultado é {soma}')
+#     elif op == '-':
+#           subtracao = (lambda x, y: x - y)(p, s)
+#           print(f'O resultado é {subtracao}')
+#     elif op == '*':
+#           vezes = (lambda x, y: x * y)(p, s)
+#           print(f'O resultado é {vezes}')
+#     elif op == '/':
+#           divisao = (lambda x, y: x / y if y != 0 else 'Erro: Divisão por 0.')(p, s)
+#           print(f'O resultado é {divisao}')
+#     else:
+#           print('Operação errada, encerrando programa...')
                
-calculadora(primeiro_numero, segundo_numero, operacao)
+# calculadora(primeiro_numero, segundo_numero, operacao)
