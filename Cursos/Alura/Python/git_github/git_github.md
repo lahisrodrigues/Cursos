@@ -6,3 +6,9 @@ GitHub: plataforma onde vamos hospedar o código
 Git: ferramenta onde fazemos o controle de versões do código  
 
 `git init`: usamos para transformar o diretorio do projeto em um repositório Git e deve ser executado apenas uma vez pois quando executado ele configura o diretório atual para ser rastreado pelo Git, inicializando um repositório vazio  
+`git add .`: adiciona todos os arquivos de uma vez no repositório
+`git commit -m " "`: coloca uma mensagem ao commit
+`git push`: envia o commit pro repositório
+`git remote add`: vincula o repositório remoto ao nosso repositório local e precisamos utilizar um protocolo seguro como HTTPS ou SSH
+
+### Para fazer a chave SSH
