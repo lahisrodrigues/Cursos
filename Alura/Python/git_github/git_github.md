@@ -1,4 +1,4 @@
-## Criano repositório
+## Criando repositório
 Lugar onde código dos projetos  
 Repositório é único na sua conta  
 
