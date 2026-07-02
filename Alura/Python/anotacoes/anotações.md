@@ -1,0 +1,57 @@
+print = exibe na tela  
+input = recebe um dado do usuário  
+\n = pula uma linha  
+
+Tipos de padrões de linguagem = https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case  
+
+f string = coloca o texto junto com uma variável, por exemplo (f'Você escolheu a opção {opcao_escolhida}')  
+
+int = tipo da variável é inteiro  
+
+ctrl / = comenta a linha  
+
+def = é uma função em python, que nad amais é que realizar determinada ação no momento que for chamada
+
+biblioteca 'os' = para limpar o terminal     os.system('cls')  
+
+main = programa principal, controla o projeto  
+
+ctrl [ = identa um ou mais linhas  
+
+match = simpplificar a lógica do código ao facilitar o trabalho com diferentes padrões de dados. O match é utilizado junto com o 'case'  
+
+try e except = permite tentar excutar um bloco de código, e caso ocorra um erro, captura essa exceção e executa um código alternativo  
+https://hub.asimov.academy/blog/try-except-python/  
+
+lista = armazena uma coleção de dados, utiliza os []. as listas são mutáveis, pode adicionar, remover dados, e tem funções próprias como o append(), remove(), pop(), e insert().  
+
+tuplas = são estruturas de dados que nos permitem armazenar elementos de maneira ordenada e sequencial, assim como as listas, mantendo a ordem dos elementos e também dos índices para acessar os valores, utiliza os (). as tuplas são imutáveis. tuplas tem desempenho melhor.  
+
+lista = [1,’olá mundo’,True,9.7]  
+tupla = (1,’olá mundo’,True,9.7)  
+
+laço for = estrutura de repetição para executar um bloco de código repetidas vezes  
+
+while = é utilizado quando não se sabe o número de iterações que vai precisar fazer, mas ainda precisa de uma condição específica pra fazer o bloco de código ficar ainda em repetição.  
+
+while condição:
+    # Bloco de código a ser repetido  
+
+dicionário = é uma estrutura de dados flexível que armazena informações em pares de chave-valor.  
+
+ternário = atalho para escrever condições de if e else em uma única linha.  
+
+ljust = alinha a string a esquerda, preenche o espaço com restante de espaços ou caracteres
+
+rjust = alinha a string a direita, preenche o espaço com restante de espaços ou caracteres  
+
+del pessoa['cidade] = remove um item do dicionário  
+
+.split() = essa função transforma palavras soltas em lista, por exemplo
+    meu_texto = "uva banana maça"
+    minha_lista = meu_texto.split()
+    print(minha_lista)  
+
+docstring = usada para fazer uma documentação em python, explicando o que o código faz  
+
+
