@@ -33,31 +33,32 @@ Passo 3: exibir a contagem
 Passo 4: Testar e refinar o código
 
 ## cria arquivo contador.py
-`
+```
 frase = input("Digite uma frase: ")
 palavras = frase.split()
 print(len(palavras))
 print(palavras)
-`
+```
 ## aprimorando o código
 crie uma função para o contador
 
-`
+```
 def contar_palavras(frase):
     palavras = frase.split()
     print(palavras)
     return len(palavras)
-`
+```
 
 crie um arquivo `main.py` para executar os testes no mesmo diretório que o `contador.py`
 
-`
+
+```
 from contador import contar_palavras
 
 frase = input("Digite uma frase: ")
 quantidade = contar_palavras(frase)
 print(f"A frase tem {quantidade} palavras")
-`
+```
 Saída: 'Digite uma frase: livros são livros.
 ['livros', 'são', 'livros.']
 A frase tem 3 palavras.
