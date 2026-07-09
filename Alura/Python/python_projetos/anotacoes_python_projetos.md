@@ -62,6 +62,39 @@ print(f"A frase tem {quantidade} palavras")
 Saída: 'Digite uma frase: livros são livros.
 ['livros', 'são', 'livros.']
 A frase tem 3 palavras.
-'
 
-3:10 entradas do usuário
+## Tratar problemas 
+
+**Entrada vazia** = usuária telca Enter sem digitar nada. ("")
+**Problema** = o código pode falhar ou retornar valores incorretos  
+
+**Apenas espaços** = (" ")
+**Problema** = Deve ser tratado como vazio
+
+**Apenas pontuação** = (",.!?;:")
+**Problema** = Não contém palavra válida
+
+**Texto com pontuação** = ("Olá, mundo!")
+**Problema** = A pontação interfere na contagem correta
+
+**Caracteres especiais e acentos** = ("Python é incrível")
+**Problema** = pode gerar palavras separadas caso tenha o tratamento errado
+
+**Vários espaços entre palavras** = ("Essa   frase é curta !")
+**Problema** = O `split()` pode gerar lista incorretas.
+
+**Palavras repetidas** = ("Python python é bom")
+**Problema** = Deve contar corretamente a frequencia
+
+**Maíusculas e minúsculas** = ("Python PYTHON python")
+**Problema** = O código deve tratar palavras como iguais
+
+**Números na frases** = ("Faço 26 anos em 2 meses")
+**Problema** = Dependendo do contexto, pode ser palavra válida ou não
+
+**Somente números** = ("123 456 789")
+**Problema** = Números podem ser tratados como palavras
+
+**Mistura de letras e números** = ("Python3 é melhor que Python2?")
+**Problema** = A pontuação pode separar indevidamente
+
